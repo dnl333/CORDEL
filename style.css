@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+*{  margin: 0px;
+    padding: 0px;}
+
+    
+
+    @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+    :root { 
+        --fonte1:'nunito',sans-serif;
+        
+
+    }
+
+    html, body {
+        min-height: 100vh;
+        background-color: rgb(206, 171, 108);
+        font-family:'nunito'
+    
+    }
+
+        header{background-color: black;
+               color: white;
+               text-align: center;
+               font-size: 30px;}
+
+    @media(max-width:700px){
+    header{font-size:20px;}
+
+
+}
+
+
+        header > h1 {padding: 50px;
+                     font-variant: small-caps;
+                      }    
+                     
+        header > P {padding-bottom: 50px;}     
+        
+        a{color: white;
+            text-decoration: none;
+            font-weight: bolder;}
+
+            a:hover{text-decoration: underline;}
+
+
+
+
+            section{padding-top: 10vh;
+                    padding-bottom: 10vh;
+                    line-height: 2em;
+                    padding-left: 30px;
+                    font-size: 25px;
+                    text-align: center;
+                }
+
+                @media(max-width:700px){
+                    section{font-size:18px;}
+                
+                
+                }
+
+            section.normal{background-color: rgba(226, 187, 150, 0.671);
+            }
+
+            section.imagem{background-color: #3d3d8f;
+                           font-family:'lobster';
+                           box-shadow: inset 2px 2px 0px rgba(0, 0, 0, 0.37);
+                           background-attachment: fixed;
+                        
+            }
+
+            section.imagem > p {background-color: #00000067;
+                                
+                                margin:auto;
+                                color: white;
+                                text-shadow: 1px 1px 0px #000000;
+                                border-radius: 2px;
+                                width: 410px;
+                                font-family:'Ms Madi', cursive;
+                                }
+
+                                @media(max-width:700px){
+                                    section.imagem > p{width:290px;}   }
+
+
+                                    
+
+            section#img01{background-image: url(imagens/background001.jpg);
+            background-position:right center;
+            background-size: cover;
+            width: auto;
+            
+        
+        }
+
+            section#img02{background-image: url(imagens/background002.jpg);
+                background-position: right center;
+                background-size: cover;
+                width: auto;
+                
+            
+            }
+ 
+
+
+
+         
+
+
+
+
+
+
+
+
+
+
+            footer{background-color: black;
+                   color: white;
+                   text-align: center;
+                   padding: 10px;}
